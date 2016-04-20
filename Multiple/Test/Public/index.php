@@ -13,13 +13,15 @@ define('RUNTIME_START_TIME', microtime(true));
 
 // 入口目录
 define('ROOT_PATH', str_replace('\\', '/', dirname(__FILE__)) . '/');
+// 公共目录
+define('COMMON_PATH', ROOT_PATH . '../Common/');
 // 应用目录
 define('APP_PATH', ROOT_PATH . '../');
-// 公共目录
-define('COMMON_PATH', ROOT_PATH . '../../Common/');
 // 运行时目录
 define('RUNTIME_PATH', ROOT_PATH . '../Runtime/');
 // 框架目录
 define('THINK_PATH', ROOT_PATH . '../../../ThinkPHP/');
+// SDK目录
+define('SDK_PATH', ROOT_PATH . '../../SDK/');
 // 启动
 require THINK_PATH . 'ThinkPHP.php';

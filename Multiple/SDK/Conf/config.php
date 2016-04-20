@@ -1,5 +1,9 @@
 <?php
 return array(
+    'AUTOLOAD_NAMESPACE'    => array(
+        'SDK'     => SDK_PATH,
+    ),
+
     /* 应用设定 */
     'ACTION_SUFFIX'         => 'Action',
 
