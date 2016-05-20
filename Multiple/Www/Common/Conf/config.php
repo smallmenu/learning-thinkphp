@@ -6,6 +6,14 @@ if (is_file(SDK_PATH . 'Conf/config.php')) $SDK_CONFIG = include SDK_PATH . 'Con
 
 return array_merge($SDK_CONFIG, array(
     'LOAD_EXT_CONFIG' => array(
-        'COMMON_USER' => 'user',
+        'db',
+        'router',
+        'cookie',
+        'define'  => 'define',
+        'cache'   => 'cache',
     ),
+
+    'DEFAULT_THEME'   => 'Default',
+
+    'SHOW_PAGE_TRACE' => true,
 ));

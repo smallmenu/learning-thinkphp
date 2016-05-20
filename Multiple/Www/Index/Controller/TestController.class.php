@@ -1,25 +1,20 @@
 <?php
 namespace Index\Controller;
 
-use Think\Controller;
+use Common\Library\Core\BaseController;
 
-class TestController extends Controller
+class TestController extends BaseController
 {
-    public function indexAction()
+    /**
+     * initialize
+     */
+    public function _initialize()
     {
-        echo 'Www APP';
-        echo PHP_EOL;
-        echo 'Default Index Module';
-        echo PHP_EOL;
-        echo U('index/test/index');
+        parent::_initialize();
     }
 
-    public function testAction()
+    public function indexAction()
     {
-        echo 'Www APP';
-        echo PHP_EOL;
-        echo 'Default Index Module';
-        echo PHP_EOL;
-        echo U('index/test/test');
+
     }
 }
