@@ -15,5 +15,5 @@ return array_merge($SDK_CONFIG, array(
 
     'DEFAULT_THEME'   => 'Default',
 
-    'SHOW_PAGE_TRACE' => true,
+    //'SHOW_PAGE_TRACE' => true,
 ));

@@ -1,3 +1,8 @@
 .idea
 .svn
 .DS_Store
+
+Single/Runtime
+Simple/Runtime
+Multiple/Www/Runtime/*
+Multiple/Test/Runtime/*
